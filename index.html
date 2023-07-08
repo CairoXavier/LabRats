@@ -37,11 +37,11 @@
         <a-nft
             type='nft' url='https://cairoxavier.github.io/LabRats/outputs/Exhibit1'
             smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
-            <a-entity
-              text="value: Hello World!; align: center; width: 10; color: #ffffff; wrapCount: 15;"
-              scale="10 10 10"
-              position="1.5 1.5 -1">
-            </a-entity>
+           <a-scene embedded ar.js>
+          <a-entity scale=".2 .2 .2">
+              <a-entity gltf-model="assets/scene.gltf" scale="-1 1 1">
+             </a-entity>
+            </a-scene>
         </a-nft>
     <a-entity camera></a-entity>
     </a-scene>
